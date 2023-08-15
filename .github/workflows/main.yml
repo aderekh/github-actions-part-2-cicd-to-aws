@@ -1,8 +1,8 @@
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "dos13-aderekh-flusk"
-  EB_APPLICATION_NAME       : "dos13-aderekh-flusk"
-  EB_ENVIRONMENT_NAME       : "Dos13aderekhflusk-env-1"
+  EB_APPLICATION_NAME       : "myapp"
+  EB_ENVIRONMENT_NAME       : "myenv"
   DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-east-1"
 
