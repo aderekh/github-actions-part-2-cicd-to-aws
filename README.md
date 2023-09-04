@@ -108,26 +108,18 @@ Use the pip install -r requirements.txt command.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Configure your AWS keys
-Configure your Git
-Configure your Terraform
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Configure your AWS keys;
+Configure your Git;
+Configure your Terraform;
 
 ### Installation
 
 
-1. Clone the repo
+1. Deploy
    ```sh
    terraform apply --auto-approve
    ```
-2. Install NPM packages
+2. Destroy
    ```sh
    terraform destroy --auto-approve
    ```
@@ -138,15 +130,14 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Description 
-Terraform 
+main.tf - resource is used 
+aws_elastic_beanstalk for raising the web application and all dependencies for it: EC2, Security_Groups, Subnets, etc..
+aws_s3_bucket for storing the application and further deployment.
+all settings are passed through user data 
 
-AWS 
+prometheus.tf - resources are used to create roles, security groups, policies and ec2 instance. all settings are passed through user data 
 
-Elastic Beanstalk 
-
-Prometheus
-
-Grafana 
+grafana.tf - used to deploy and configure Grafana all settings are passed through user data 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
