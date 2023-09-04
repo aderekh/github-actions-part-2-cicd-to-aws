@@ -1,0 +1,4 @@
+.DS_Store
+./infrastructure/darwin_arm64/terraform-provider-aws_v5.12.0_x5
+/logs
+/log
