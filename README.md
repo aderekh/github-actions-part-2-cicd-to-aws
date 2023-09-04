@@ -95,7 +95,11 @@ Use the pip install -r requirements.txt command.
 
 ### Built With
 * [![Next][Terraform-url]:][Next-url]
-* [![React][React.js]][React-url]
+* [![Next][AWS-url]:][React-url]
+* [![Next][Python-url]:][React-url]
+* [![Next][Bash-url]:][React-url]
+* [![Next][Git-url]:][React-url]
+* [![Next][GitHub/Actions-url]:][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,8 +108,9 @@ Use the pip install -r requirements.txt command.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Configure your AWS keys
+Configure your Git
+Configure your Terraform
 
 ### Prerequisites
 
@@ -117,18 +122,14 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   terraform apply --auto-approve
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   terraform destroy --auto-approve
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,27 +137,19 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Description 
+Terraform 
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+AWS 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Elastic Beanstalk 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Prometheus
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+Grafana 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -241,3 +234,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [Terraform-url]: https://img.shields.io/badge/Terraform-8A2BE2
+[AWS-url]:https://img.shields.io/badge/AWS-8A2BE2
+[Python-url]:https://img.shields.io/badge/Python-8A2BE2
+[Bash-url]:https://img.shields.io/badge/BASH-8A2BE2
+[Git-url]:https://img.shields.io/badge/Git-8A2BE2
+[GitHub/Actions-url]:https://img.shields.io/badge/GitHub/Actions-8A2BE2
