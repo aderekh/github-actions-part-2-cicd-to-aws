@@ -39,8 +39,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This project uses Terraform to deploy the project infrastructure on AWS and web-application in Python (Flask).
 All requirements for the application can be found in the file requierements.txt   
 Use the pip install -r requirements.txt command.
